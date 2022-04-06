@@ -1,17 +1,17 @@
 {
-    "name": "New Tab Countdown",
-    "description": "Countdown time remaining in the day, week, month, year, or a custom date.",
-    "version": "2.3.4",
-    "manifest_version": 2,
-    "icons": {
-        "48": "extension-icons/Clock-48.png",
-        "128": "extension-icons/Clock-128.png"
-    },
-    "chrome_url_overrides": {
-        "newtab": "index.html"
-    },
-    "permissions": [
-        "storage"
-    ],
-    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+  "name": "New Tab FutureStack Countdown",
+  "description": "Countdown time remaining until FutureStack 2022.",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "icons": {
+    "48": "extension-icons/Clock-48.png",
+    "128": "extension-icons/Clock-128.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "content_security_policy": {
+    "script-src": "self",
+    "object-src": "self"
+  }
 }

@@ -1,10 +1,10 @@
 {
   "name": "new-tab-countdown",
   "version": "2.3.4",
-  "description": "Countdown time remaining in the day, week, month, year, or a custom date.",
+  "description": "Countdown time remaining until FutureStack 2022.",
   "repository": {
     "type": "git",
-    "url": "git@github.com:cbass10liu/new-tab-countdown.git"
+    "url": "git@github.com:ppezaris/new-tab-countdown"
   },
   "main": "webpack.config.js",
   "scripts": {
@@ -43,7 +43,8 @@
     "sinon": "^2.3.8",
     "style-loader": "^0.13.1",
     "transform-runtime": "0.0.0",
-    "webpack": "^1.14.0",
+    "webpack": "^1.15.0",
+    "webpack-cli": "^4.9.2",
     "yargs": "^8.0.1"
   },
   "author": "Sebastian Liu",
